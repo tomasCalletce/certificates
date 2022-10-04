@@ -1,0 +1,24 @@
+{
+  "name": "certificates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/experimental": "^5.7.0",
+    "@openzeppelin/contracts": "^4.7.3",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.11.2",
+    "minimist": "^1.2.6",
+    "process": "^0.11.10",
+    "web3.storage": "^4.4.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0"
+  }
+}
