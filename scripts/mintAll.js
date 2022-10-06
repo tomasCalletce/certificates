@@ -42,7 +42,6 @@ async function getUrlsANDadress(){
     return [listAdress,listURLS];
 }
 
-
 async function saveImage(path,fileName){
     const token = STORAGE_WEB_TOKEN
     const storage = new Web3Storage( {token} )
@@ -58,7 +57,6 @@ async function saveImage(path,fileName){
     const res = `https://${cid}.ipfs.dweb.link${fileName}`
     return res
 }
-
 
 main().catch((error) => {
 console.error(error);

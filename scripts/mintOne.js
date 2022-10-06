@@ -15,7 +15,6 @@ const minter = {
         file: "/pngtree-blue-sky-and-white-clouds-png-image_4391818.jpeg",
 }
 
-
 const contractURL = "0xe4516718069F55f1e22ccd0541242d753F96343c"
 
 async function main() {
@@ -45,7 +44,6 @@ async function main() {
   const res = `https://${cid}.ipfs.dweb.link${fileName}`
   console.log("IPFS link: " + res)
   return res
-
  }
   
 
