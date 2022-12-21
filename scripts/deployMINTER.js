@@ -1,5 +1,7 @@
 const hre = require("hardhat");
-const NFTcontractAddress = "0xe4516718069F55f1e22ccd0541242d753F96343c"
+
+// add address od nft contract
+const NFTcontractAddress = ""
 
 async function main() {
   const NTF = await hre.ethers.getContractFactory("Minter");
@@ -16,3 +18,4 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+

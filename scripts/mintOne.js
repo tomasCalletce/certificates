@@ -15,7 +15,8 @@ const minter = {
         file: "/pngtree-blue-sky-and-white-clouds-png-image_4391818.jpeg",
 }
 
-const contractURL = "0xe4516718069F55f1e22ccd0541242d753F96343c"
+// address of the nft contract
+const contractURL = ""
 
 async function main() {
     const NFT = await hre.ethers.getContractFactory("ZTPnft")
@@ -23,8 +24,8 @@ async function main() {
     const nft =  NFT.attach(contractURL)
     console.log("mint nft for: " + minter.address)
     await mint(minter.address,url,nft)
-
  }
+ 
  async function mint(addressOwner,nftURL,NFT){
     NFT.safeMint(addressOwner,nftURL)
  }

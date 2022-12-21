@@ -12,9 +12,9 @@ const { INFURA_API_LINK, SIGNER_PRIVATE_KEY } = process.env;
 
 module.exports = {
   solidity: "0.8.17",
-  defaultNetwork: "goerli",
+  defaultNetwork: "matic",
   networks: {
-    goerli: {
+    matic: {
       url: INFURA_API_LINK,
       accounts: [SIGNER_PRIVATE_KEY]
     }
